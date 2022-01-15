@@ -1,2 +1,1 @@
-#!/bin/sh
-git log -5 --pretty=oneline
+git log --pretty=%H | head -n 5
